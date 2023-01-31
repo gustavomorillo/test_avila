@@ -6,3 +6,4 @@ export * from './LocationDarkTopLogo';
 export * from './PetTopLogo';
 export * from './ShoppingCartTopLogo';
 export * from './UserTopLogo';
+export * from './SearchTopLogo';

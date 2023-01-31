@@ -46,7 +46,7 @@ module.exports = {
         700: '#494949',
         800: '#292727',
       },
-      text: {
+      'text-color': {
         black: '#333333',
         white: '#FEFEFE',
       },
@@ -57,97 +57,6 @@ module.exports = {
       },
     },
 
-    fontSize: {
-      'display-1': [
-        '36px',
-        {
-          letterSpacing: 0,
-          fontWeight: 'bold',
-          lineHeight: '44px',
-        },
-      ],
-      'display-2': [
-        '24px',
-        {
-          letterSpacing: 0,
-          fontWeight: '600',
-          lineHeight: '34px',
-        },
-      ],
-      'display-3': [
-        '22px',
-        {
-          letterSpacing: 0,
-          fontWeight: '600',
-          lineHeight: '27px',
-        },
-      ],
-      'display-4': [
-        '20px',
-        {
-          letterSpacing: 0,
-          fontWeight: '600',
-          lineHeight: '24px',
-        },
-      ],
-      'display-5': [
-        '20px',
-        {
-          letterSpacing: 0,
-          fontWeight: '500',
-          lineHeight: '24px',
-        },
-      ],
-      subtitle: [
-        '20px',
-        {
-          letterSpacing: 0,
-          fontWeight: '500',
-          lineHeight: '24px',
-        },
-      ],
-      'display-body': [
-        '16px',
-        {
-          letterSpacing: 0,
-          fontWeight: '400',
-          lineHeight: '24px',
-        },
-      ],
-      'display-small': [
-        '14px',
-        {
-          letterSpacing: 0,
-          fontWeight: '600',
-          lineHeight: '24px',
-        },
-      ],
-      'pre-title': [
-        '10px',
-        {
-          letterSpacing: '3%',
-          fontWeight: '700',
-          lineHeight: '14px',
-        },
-      ],
-      'button-text': [
-        '16px',
-        {
-          letterSpacing: '2%',
-          fontWeight: '500',
-          lineHeight: '14px',
-        },
-      ],
-      link: [
-        '16px',
-        {
-          letterSpacing: '2%',
-          fontWeight: '600',
-          lineHeight: '16px',
-          textDecoration: 'underline',
-        },
-      ],
-    },
     fontFamily: {
       montserrat: ['Montserrat', 'sans-serif'],
       mulish: ['Mulish', 'sans-serif'],

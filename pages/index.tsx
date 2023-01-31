@@ -1,9 +1,10 @@
 import React from 'react';
-import Image from 'next/image';
-import logo from '../public/logo.png';
+import { Navbar } from '../components/navbar';
 
-function HomePage() {
-  return <div>Home</div>;
-}
+const HomePage = () => (
+  <div>
+    <Navbar />
+  </div>
+);
 
 export default HomePage;
