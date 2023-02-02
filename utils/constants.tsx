@@ -54,5 +54,5 @@ export const PRICE = '$9.99';
 
 export const DESCRIPTION = '1st Choice Puppy Chiot';
 
-export const DESCRIPTION_SERVICES =
+export const DESCRIPTION_SUBHEADING =
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In velit ut viverra fames sed.';

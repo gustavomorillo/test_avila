@@ -6,6 +6,7 @@ import {
   PopularProducts,
 } from '../components/products';
 import { Services } from '../components/services';
+import { Brand } from '../components/brand/Brand';
 
 const HomePage = () => (
   <div>
@@ -15,6 +16,7 @@ const HomePage = () => (
     <PopularProducts />
     <LastProducts />
     <Services />
+    <Brand />
   </div>
 );
 

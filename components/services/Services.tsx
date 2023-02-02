@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   CATEGORY_SUBHEADING,
-  DESCRIPTION_SERVICES,
+  DESCRIPTION_SUBHEADING,
   HEADING_OUR_SERVICES,
   ServiceInt,
 } from '../../utils';
@@ -16,7 +16,7 @@ export const Services = () => (
       headingCategory={HEADING_OUR_SERVICES}
     />
     <p className="text-color-black font-calibri font-normal mb-5">
-      {DESCRIPTION_SERVICES}
+      {DESCRIPTION_SUBHEADING}
     </p>
     <div className="flex flex-wrap flex-1 justify-between">
       {servicesList.map(({ description, label }: ServiceInt) => (
