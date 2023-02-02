@@ -5,6 +5,7 @@ import {
   MainProducts,
   PopularProducts,
 } from '../components/products';
+import { Services } from '../components/services';
 
 const HomePage = () => (
   <div>
@@ -13,6 +14,7 @@ const HomePage = () => (
     <MainProducts />
     <PopularProducts />
     <LastProducts />
+    <Services />
   </div>
 );
 

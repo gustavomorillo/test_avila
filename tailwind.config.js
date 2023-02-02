@@ -61,6 +61,7 @@ module.exports = {
       montserrat: ['Montserrat', 'sans-serif'],
       mulish: ['Mulish', 'sans-serif'],
       worksans: ['Work Sans', 'sans-serif'],
+      calibri: ['calibri', 'sans-serif'],
     },
     extend: {},
   },

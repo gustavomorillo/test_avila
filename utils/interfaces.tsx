@@ -8,3 +8,8 @@ export interface ProductItemInt {
   price: number;
   description: string;
 }
+
+export interface ServiceInt {
+  label: string;
+  description: string;
+}

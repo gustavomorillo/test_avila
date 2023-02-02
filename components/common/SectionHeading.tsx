@@ -8,7 +8,9 @@ export const SectionHeading = ({
   headingCategory,
 }: Props) => (
   <>
-    <p className="text-xs text-secondary-500">{categorySubheading} </p>
+    <p className="text-sm text-secondary-500 font-calibri">
+      {categorySubheading}
+    </p>
     <h3 className="text-xl font-montserrat font-bold text-primary-300 mb-5">
       {headingCategory}
     </h3>
