@@ -57,7 +57,11 @@ export const Navbar = () => (
       <div className="items-center justify-between flex w-auto ">
         <ul className="flex  p-4 rounded-lg flex-row mt-0  ">
           {LINKS.map((element: LinkTopBar) => (
-            <Links label={element.label} link={element.link} />
+            <Links
+              label={element.label}
+              link={element.link}
+              key={element.label}
+            />
           ))}
           <li />
         </ul>

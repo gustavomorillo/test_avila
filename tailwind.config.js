@@ -46,7 +46,7 @@ module.exports = {
         700: '#494949',
         800: '#292727',
       },
-      'text-color': {
+      color: {
         black: '#333333',
         white: '#FEFEFE',
       },

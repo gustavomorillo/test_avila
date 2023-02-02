@@ -34,6 +34,22 @@ export const CATEGORY_LIST = [
   'Placeholder',
 ];
 
-export const HEADING_CATEGORY = 'Una gran variedad de categorías';
+export const HEADING_CATEGORY = 'UNA GRAN VARIEDAD DE CATEGORÍAS';
+
+export const HEADING_MAIN_PRODUCTS = 'PRODUCTOS DESTACADOS';
+
+export const HEADING_POPULAR_PRODUCTS = 'PRODUCTOS POPULARES';
+
+export const HEADING_LAST_PRODUCTS = 'ÚLTIMOS PRODUCTOS';
+
+export const HEADING_OUR_SERVICES = 'NUESTROS SERVICIOS';
+
+export const HEADING_BEST_BRANDS = 'TRABAJAMOS CON LAS MEJORES MARCAS';
 
 export const CATEGORY_SUBHEADING = 'Lorem ipsum dolor sit amet.';
+
+export const ADD = 'Agregar';
+
+export const PRICE = '$9.99';
+
+export const DESCRIPTION = '1st Choice Puppy Chiot';

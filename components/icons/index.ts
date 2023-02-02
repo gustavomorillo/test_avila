@@ -7,3 +7,5 @@ export * from './PetTopLogo';
 export * from './ShoppingCartTopLogo';
 export * from './UserTopLogo';
 export * from './SearchTopLogo';
+export * from './RatingIcons';
+export * from './ShoppingCartInBtn';
