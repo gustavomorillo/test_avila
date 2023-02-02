@@ -11,7 +11,7 @@ import {
   SearchTopLogo,
 } from '../icons';
 
-import { LINKS_OBJECT, LinkTopBar } from '../../utils';
+import { LINKS, LinkTopBar } from '../../utils';
 import { Links } from '.';
 
 export const Navbar = () => (
@@ -56,7 +56,7 @@ export const Navbar = () => (
 
       <div className="items-center justify-between flex w-auto ">
         <ul className="flex  p-4 rounded-lg flex-row mt-0  ">
-          {LINKS_OBJECT.map((element: LinkTopBar) => (
+          {LINKS.map((element: LinkTopBar) => (
             <Links label={element.label} link={element.link} />
           ))}
           <li />

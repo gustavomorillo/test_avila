@@ -1,9 +1,10 @@
-import React from 'react';
 import { Navbar } from '../components/navbar';
+import { Category } from '../components/category';
 
 const HomePage = () => (
   <div>
     <Navbar />
+    <Category />
   </div>
 );
 

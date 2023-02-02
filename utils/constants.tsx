@@ -1,4 +1,4 @@
-export const LINKS_OBJECT = [
+export const LINKS = [
   {
     label: 'inicio',
     link: '#',
@@ -24,3 +24,16 @@ export const LINKS_OBJECT = [
     link: '#',
   },
 ];
+
+export const CATEGORY_LIST = [
+  'Perros',
+  'Gatos',
+  'Peces',
+  'Roedores',
+  'Reptiles',
+  'Placeholder',
+];
+
+export const HEADING_CATEGORY = 'Una gran variedad de categorías';
+
+export const CATEGORY_SUBHEADING = 'Lorem ipsum dolor sit amet.';
