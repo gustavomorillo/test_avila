@@ -7,7 +7,7 @@ interface Props {
 }
 
 export const ProductItem = ({ description, price }: Props) => (
-  <div className="mb-16 mx-14">
+  <div className="mb-16 mx-9">
     <img src="assets/MainProduct.png" className="block" alt="Main product" />
     <p className="font-montserrat text-sm text-color-black mt-7">
       {description}

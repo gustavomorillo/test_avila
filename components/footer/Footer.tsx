@@ -10,9 +10,9 @@ import { AvilaBottomIcon } from '../icons/AvilaBottomIcon';
 import { HeadingList, ListItem } from './ListItems';
 
 export const Footer = () => (
-  <>
-    <div className="mx-32 mb-20">
-      <div className="flex justify-between ">
+  <footer>
+    <div className="mx-auto mb-20" style={{ maxWidth: 1300 }}>
+      <div className="flex justify-between">
         <div className="flex flex-col">
           <HeadingList>Sobre nosotros</HeadingList>
           <p
@@ -50,9 +50,9 @@ export const Footer = () => (
             <ListItem>9:00 a.m. - 5:00 p.m.</ListItem>
           </ul>
           <div className="flex">
-            <InstagramFooterIcon className="mr-2" />
-            <TwitterFooterIcon className="mr-2" />
-            <FacebookFooterIcon />
+            <InstagramFooterIcon className="mr-2 cursor-pointer" />
+            <TwitterFooterIcon className="mr-2 cursor-pointer" />
+            <FacebookFooterIcon className="cursor-pointer" />
           </div>
         </div>
       </div>
@@ -64,5 +64,5 @@ export const Footer = () => (
       Avila Tek
       <AvilaBottomIcon className="ml-3 mt-0.5" />
     </div>
-  </>
+  </footer>
 );

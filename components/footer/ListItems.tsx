@@ -1,5 +1,5 @@
 export const ListItem = ({ children }) => (
-  <li className="font-calibri text-base text-secondary-500 mb-2.5">
+  <li className="font-calibri text-base text-secondary-500 mb-2.5 cursor-pointer">
     {children}
   </li>
 );

@@ -9,7 +9,7 @@ import { ProductItem } from '.';
 import { ProductItems } from '../../utils/Data';
 
 export const MainProducts = () => (
-  <div className="mx-32 mt-20">
+  <div className=" mt-20">
     <SectionHeading
       categorySubheading={CATEGORY_SUBHEADING}
       headingCategory={HEADING_MAIN_PRODUCTS}
@@ -17,13 +17,13 @@ export const MainProducts = () => (
     <div className="flex justify-between">
       <img
         src="assets/CatAd.png"
-        className="flex mr-20"
+        className="flex mr-5"
         alt="Cat advertise"
         style={{ height: 708 }}
       />
       <div className="w-full">
         <div>
-          <div className="flex flex-1 flex-wrap flex-row">
+          <div className="flex flex-wrap flex-row">
             {ProductItems.map(({ id, description, price }: ProductItemInt) => (
               <ProductItem description={description} price={price} key={id} />
             ))}

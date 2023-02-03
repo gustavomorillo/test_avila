@@ -6,7 +6,7 @@ import {
 import { SectionHeading } from '../common';
 
 export const Brand = () => (
-  <div className="mx-32 mt-32 mb-44">
+  <div className="mt-32 mb-44">
     <SectionHeading
       categorySubheading={CATEGORY_SUBHEADING}
       headingCategory={HEADING_BEST_BRANDS}

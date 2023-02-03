@@ -7,6 +7,7 @@
 html,
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #fcfcfc;
 }
 
 #nprogress {
@@ -88,9 +89,11 @@ body {
     transform: rotate(360deg);
   }
 }
-/* purgecss end ignore */
+
 @font-face {
   font-family: 'Calibri';
   src: local('Calibri'), url('/fonts/Calibri-Regular.ttf') format('truetype');
   font-weight: normal;
 }
+
+/* purgecss end ignore */

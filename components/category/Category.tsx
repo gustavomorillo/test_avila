@@ -7,7 +7,7 @@ import { ImageListCategory } from '.';
 import { SectionHeading } from '../common';
 
 export const Category = () => (
-  <div className="mx-32">
+  <div className="mt-16">
     <SectionHeading
       categorySubheading={CATEGORY_SUBHEADING}
       headingCategory={HEADING_CATEGORY}
