@@ -9,3 +9,8 @@ export * from './UserTopLogo';
 export * from './SearchTopLogo';
 export * from './RatingIcons';
 export * from './ShoppingCartInBtn';
+export * from './DogHouseIcon';
+export * from './TreeIcon';
+export * from './FacebookFooterIcon';
+export * from './InstagramFooterIcon';
+export * from './TwitterFooterIcon';

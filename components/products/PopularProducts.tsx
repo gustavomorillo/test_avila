@@ -8,12 +8,12 @@ import { SectionHeading } from '../common';
 import { ProductItem } from './ProductItem';
 
 export const PopularProducts = () => (
-  <div className="w-full mx-32">
+  <div className=" mx-32">
     <SectionHeading
       categorySubheading={CATEGORY_SUBHEADING}
       headingCategory={HEADING_POPULAR_PRODUCTS}
     />
-    <div className="flex flex-1 flex-wrap flex-row">
+    <div className="flex flex-row">
       {ProductItems.map(({ id, description, price }: ProductItemInt) => (
         <ProductItem description={description} price={price} key={id} />
       ))}

@@ -7,6 +7,7 @@ import {
 } from '../components/products';
 import { Services } from '../components/services';
 import { Brand } from '../components/brand/Brand';
+import { Footer } from '../components/footer';
 
 const HomePage = () => (
   <div>
@@ -17,6 +18,7 @@ const HomePage = () => (
     <LastProducts />
     <Services />
     <Brand />
+    <Footer />
   </div>
 );
 
