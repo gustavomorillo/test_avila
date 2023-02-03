@@ -17,9 +17,8 @@ export const MainProducts = () => (
     <div className="flex justify-between">
       <img
         src="assets/CatAd.png"
-        className="flex mr-5"
+        className="flex mr-5 fixedHeightAd"
         alt="Cat advertise"
-        style={{ height: 708 }}
       />
       <div className="w-full">
         <div>

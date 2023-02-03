@@ -12,10 +12,7 @@ export const Brand = () => (
       headingCategory={HEADING_BEST_BRANDS}
     />
     <div className="flex justify-between">
-      <p
-        className="text-color-black font-calibri font-normal mb-5"
-        style={{ maxWidth: 360 }}
-      >
+      <p className="text-color-black font-calibri font-normal mb-5 maxWidthHeading">
         {DESCRIPTION_SUBHEADING}
       </p>
       <img src="assets/brand.png" alt="marca1" />

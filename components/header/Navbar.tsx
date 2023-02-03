@@ -14,8 +14,8 @@ import {
 import { LINKS, LinkTopBar } from '../../utils';
 import { Links } from '.';
 
-export const Navbar = () => (
-  <nav className="bg-white border-gray-200 rounded dark:bg-gray-900 ">
+export const Header = () => (
+  <header className="bg-white border-gray-200 rounded dark:bg-gray-900 ">
     <div className="h-6 w-full flex bg-primary-300 pr-12 justify-end">
       <LocationTopLogo className="mx-2 my-1 cursor-pointer" />
       <p className="text-secondary-50 mx-2 text-xs my-1"> Bello Monte</p>
@@ -54,7 +54,7 @@ export const Navbar = () => (
         </div>
       </div>
 
-      <div className="items-center justify-between flex w-auto ">
+      <nav className="items-center justify-between flex w-auto ">
         <ul className="flex  p-4 rounded-lg flex-row mt-0  ">
           {LINKS.map((element: LinkTopBar) => (
             <Links
@@ -65,7 +65,7 @@ export const Navbar = () => (
           ))}
           <li />
         </ul>
-      </div>
+      </nav>
     </div>
-  </nav>
+  </header>
 );

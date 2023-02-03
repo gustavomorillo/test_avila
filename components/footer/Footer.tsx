@@ -11,14 +11,11 @@ import { HeadingList, ListItem } from './ListItems';
 
 export const Footer = () => (
   <footer>
-    <div className="mx-auto mb-20" style={{ maxWidth: 1300 }}>
+    <div className="mx-auto mb-20 maxWidthFooter">
       <div className="flex justify-between">
         <div className="flex flex-col">
           <HeadingList>Sobre nosotros</HeadingList>
-          <p
-            style={{ maxWidth: 240 }}
-            className="font-calibri text-secondary-500 text-sm"
-          >
+          <p className="font-calibri text-secondary-500 text-sm maxWidthSubFooter">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus
             molestie rhoncus id nunc, porta leo tempus facilisi.
           </p>

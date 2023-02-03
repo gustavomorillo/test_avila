@@ -26,9 +26,8 @@ export const LastProducts = () => (
       </div>
       <img
         src="assets/CatAd.png"
-        className="flex "
+        className="flex fixedHeightAd "
         alt="Cat advertise"
-        style={{ height: 708 }}
       />
     </div>
   </div>
